@@ -4,6 +4,9 @@ Getting and Cleaning Data Course Project
 Contains one R script to transform the UCI Human Activity Recognition raw data
 into a usable tidy dataset.
 
+Assumes that the UCI HAR Dataset is available in a subdirectory of the current
+active directory using the original file structure.
+
 Merges training and test datasets into a single dataset.
   Extract measured variable data from files X_test.txt and X_train.txt into
   two separate tables (test, train). Each observation contains 561 variables
